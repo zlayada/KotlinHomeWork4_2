@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var post = Post(
+    var post = SpecialPost(
         1,
         "Джонатон Уэйн",
         "Самое первое сообщение в этой социальной сети. Где отображаются переносы слов, но не более ограниченных строк.",
@@ -19,10 +19,11 @@ class MainActivity : AppCompatActivity() {
         false,
         false,
         false,
+
+        0,
+        0,
+        0,
         false,
-        0,
-        0,
-        0,
         "Барселона",
         coordinates_lat = 41.40338,
         coordinates_lng = 2.17403
